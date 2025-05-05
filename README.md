@@ -1,4 +1,4 @@
-Simple Temperature Chart
+Temperature Chart
 
 A Python project that creates a basic temperature chart.
 
