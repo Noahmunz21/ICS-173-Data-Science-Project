@@ -8,8 +8,7 @@ git push -u origin main
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-pip install matplotlib
-python temperature_chart.py
+
 
 # Simple temperature data (months vs. temperature in Fahrenheit)
 months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
@@ -29,4 +28,4 @@ plt.savefig('temperature_chart.png')
 # Show the chart
 plt.show()
 
-print("Chart created and saved as "temperature_chart.png'")
+print("Chart created and saved as 'temperature_chart.png'")
