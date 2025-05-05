@@ -13,11 +13,11 @@ python temperature_chart.py
 
 # Simple temperature data (months vs. temperature in Fahrenheit)
 months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-temperatures = [30, 34, 45, 58, 70, 80, 85, 83, 75, 60, 45, 32]
+temperatures = [30, 34, 45, 58, 70, 80, 85, 83, 75, 69, 66, 28, 21]
 
-# Create a simple line chart
+# Create a simple line chat
 plt.figure(figsize=(10, 6))
-plt.plot(months, temperatures, marker='o', color='blue', linewidth=2)
+plt.plot(months, temperatures, marker='o', color='green', linewidth=2)
 plt.title('Monthly Temperature Data')
 plt.xlabel('Month')
 plt.ylabel('Temperature (°F)')
@@ -29,4 +29,4 @@ plt.savefig('temperature_chart.png')
 # Show the chart
 plt.show()
 
-print("Chart created and saved as 'temperature_chart.png'")
+print("Chart created and saved as "temperature_chart.png'")
