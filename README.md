@@ -1,4 +1,5 @@
 Simple Temperature Chart
+
 A minimal Python project that creates a basic temperature chart.
 
 How to Run:
