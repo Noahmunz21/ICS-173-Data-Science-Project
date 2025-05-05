@@ -8,3 +8,5 @@ git push -u origin main
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+pip install matplotlib
+python temperature_chart.py
