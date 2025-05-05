@@ -1,0 +1,32 @@
+echo "# ICS-173-Data-Science-Project" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Noahmunz21/ICS-173-Data-Science-Project.git
+git push -u origin main
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+pip install matplotlib
+python temperature_chart.py
+
+# Simple temperature data (months vs. temperature in Fahrenheit)
+months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+temperatures = [30, 34, 45, 58, 70, 80, 85, 83, 75, 69, 66, 28, 21]
+
+# Create a simple line chat
+plt.figure(figsize=(10, 6))
+plt.plot(months, temperatures, marker='o', color='green', linewidth=2)
+plt.title('Monthly Temperature Data')
+plt.xlabel('Month')
+plt.ylabel('Temperature (°F)')
+plt.grid(True)
+
+# Save the chart
+plt.savefig('temperature_chart.png')
+
+# Show the chart
+plt.show()
+
+print("Chart created and saved as "temperature_chart.png'")
